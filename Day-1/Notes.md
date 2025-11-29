@@ -22,6 +22,8 @@ Workers NODE - Nos que tem as aplicacoes rodando
 - NodePort = 30000 - 32767 -> TCP - Pega as portas e seta na 80
 - Weave Net = 6783 TCP, 6784 UDP
 
+## INFOS
+
 Pods = menor unidade do cluster onde fica a app
 Deployment = Responsável por garantir as configs dos pods, aqui podemos definir as replicas, quantidade de memoria, imagem, etc.
 Replica Set = Garantir a quantidade das replicas do deployment
@@ -30,7 +32,7 @@ externamente no navegador digitando http://node:3001
 
 KIND = Kubernetes in DOCKER
 
-COMANDOS KUBECTL
+## COMANDOS KUBECTL
 Quer pegar informacoes dos objetos uitilize:
 kubectl get + nome do objeto -> kubectl get node -> services -> deployment
 Para acessar os pods primeiro devemos listar as namespaces: kubectl get namespaces
